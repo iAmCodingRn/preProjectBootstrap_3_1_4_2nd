@@ -16,7 +16,7 @@
 #                    age,
 #                    email,
 #                    password)
-# SELECT 'q', 'Admin', '1', 'admin@admin.com', '$2a$12$NE368iuJjxJ5KqP7vshvEOAarG4Fedd4Mlf8HTNIMKA22jKEpEkL6'
+# SELECT 'q', 'Admin', '1', 'C', '$2a$12$NE368iuJjxJ5KqP7vshvEOAarG4Fedd4Mlf8HTNIMKA22jKEpEkL6'
 # WHERE NOT EXISTS(
 #         SELECT first_name FROM users WHERE first_name = 'q'
 #     )
